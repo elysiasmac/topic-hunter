@@ -7,5 +7,5 @@ def json():
 
 @app.route("/background_process_test")
 def background_process_test():
-    print "Hello"
+    print("hello")
     return "nothing"
